@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.hero__img {
+    position: absolute;
+    width: 720px;
+    height: 343px;
+    left: 0px;
+    top: 0px;
+
+    background: url("/hometown/images/ashfieldLiverpool.jpg");
+}
+
+.activity__imgs {
+    position: absolute;
+    width: 720px;
+    height: 343px;
+    left: 0px;
+    top: 0px;
+}

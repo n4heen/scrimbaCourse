@@ -4,7 +4,9 @@ let countEl = document.getElementById("count-el")
 
 function increment() {
     count = count + 1
-    countEl.innerText=count
-    console.log(count)
+    countEl.innerText = count
 }
 
+function save() {
+    console.log(count)
+}

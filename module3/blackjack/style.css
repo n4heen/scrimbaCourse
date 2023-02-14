@@ -4,13 +4,20 @@ body {
     background-image:url(table.png) ;
     background-size:cover ;
     font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #fff;
 }
 
 h1 {
     color: goldenrod;
 }
 
-p{
+button{
+    color: #016f32;
+    width: 150px;
+    background-color: goldenrod;
+    padding: 5px 0 5px 0;
     font-weight: bold;
-    color: #fff;
+    border: none;
+    border-radius: 2px;
 }

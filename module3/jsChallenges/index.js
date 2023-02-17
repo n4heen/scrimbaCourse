@@ -1,26 +1,18 @@
-let num1 = 8
-let num2 = 2
-document.getElementById("num1-el").textContent = num1
-document.getElementById("num2-el").textContent = num2
+let age = 27
 
-let sumEl = document.getElementById("sum-el")
 
-function add() {
-    let result = num1 + num2
-    sumEl.textContent = "Sum: " + result
+if (age <= 6) {
+    console.log('Free')
 }
-
-function subtract() {
-    let result = num1 - num2
-    sumEl.textContent = "Sum: " + result
+else if (age => 6 && age < 17) {
+    console.log('Child Discount')
 }
-
-function divide() {
-    let result = num1 / num2
-    sumEl.textContent = "Sum: " + result
+else if (age => 18 && age < 26) {
+    console.log('Student discount')
 }
-
-function multiply() {
-    let result = num1 * num2
-    sumEl.textContent = "Sum: " + result
+else if (age => 27 && age < 66) {
+    console.log('Full price')
+}
+else {
+    console.log('Senior Citizen Discount')
 }

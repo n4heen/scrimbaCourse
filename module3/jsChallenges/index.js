@@ -1,18 +1,6 @@
-let age = 27
+let largeCountries = ["China", "India", "USA", "Indonesia", "Pakistan"]
 
+for (let i = 0; i < largeCountries.length; i++) {
+    console.log(largeCountries[i])
 
-if (age <= 6) {
-    console.log('Free')
-}
-else if (age => 6 && age < 17) {
-    console.log('Child Discount')
-}
-else if (age => 18 && age < 26) {
-    console.log('Student discount')
-}
-else if (age => 27 && age < 66) {
-    console.log('Full price')
-}
-else {
-    console.log('Senior Citizen Discount')
 }

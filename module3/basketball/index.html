@@ -7,27 +7,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Basketball Scoreboard</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
     <script src="/basketball/index.js" defer></script>
 </head>
 
 <body>
-    <div class="container">
-        <div class="home">
-            <h3>HOME</h3>
-            <h2 id="homeScore">0</h2>
-            <button onclick="homePlusOne()" id="plusOne">+1</button>
-            <button onclick="homePlusTwo()" id="plusTwo">+2</button>
-            <button onclick="homePlusThree()" id="plusThree">+3</button>
-        </div>
-        <div class="guest">
-            <h3>GUEST</h3>
-            <h2 id="guestScore">0</h2>
-            <button onclick="guestPlusOne()" id="plusOne">+1</button>
-            <button onclick="guestPlusTwo()" id="plusTwo">+2</button>
-            <button onclick="guestPlusThree()" id="plusThree">+3</button>
-        </div>
-
-    </div>
+    <h1>Emoji<br>Fighter</h1>
+    <div id="stage"></div>
+    <button id="fightButton">Pick Fighters!</button>
+    <script src="index.js"></script>
 </body>
 
 </html>

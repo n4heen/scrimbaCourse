@@ -8,6 +8,8 @@ let messageEl = document.querySelector("#message-el")
 let sumEl = document.querySelector("#sum-el")
 let cardsEl = document.querySelector("#cards-el")
 
+
+
 function getRandomCard() {
     let randomNumber = Math.floor(Math.random() * 13) + 1
     if (randomNumber === 1) {
@@ -27,6 +29,7 @@ function startGame() {
     cards = [firstCard, secondCard]
     sum = firstCard + secondCard
     isAlive = true
+renderGame()
 }
 
 function renderGame() {

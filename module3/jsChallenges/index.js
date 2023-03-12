@@ -9,10 +9,10 @@ let orangeShelf = document.getElementById("orange-shelf")
 function order() {
     for (i = 0; i < fruit.length; i++) {
         if (fruit[i] === "🍎") {
-            appleShelf.textContent = "🍎"
+            appleShelf.textContent += "🍎"
         }
         if (fruit[i] === "🍊") {
-            orangeShelf.textContent = "🍊"
+            orangeShelf.textContent += "🍊"
         }
     }
 }

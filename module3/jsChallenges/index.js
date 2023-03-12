@@ -1,9 +1,10 @@
-let hands = ["rock", "paper", "scissor"]
+let fighters = ["🐉", "🐥", "🐊", "💩", "🦍", "🐢", "🐩", "🦭", "🦀", "🐝", "🤖", "🐘", "🐸", "🕷", "🐆", "🦕", "🦁"]
 
-function game() {
-    let random = Math.floor(Math.random() * hands.length)
-    console.log(hands[random])
-}
+let stageEl = document.getElementById("stage")
+let fightButton = document.getElementById("fightButton")
 
-game()
-
+fightButton.addEventListener("click", function () {
+    // Challenge:
+    // When the user clicks on the "Pick Fighters" button, pick two random 
+    // emoji fighters and display them as i.e. "🦀 vs 🐢" in the "stage" <div>.
+})

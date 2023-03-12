@@ -1,13 +1,20 @@
-let fighters = ["🐉", "🐥", "🐊", "💩", "🦍", "🐢", "🐩", "🦭", "🦀", "🐝", "🤖", "🐘", "🐸", "🕷", "🐆", "🦕", "🦁"]
+let fruit = ["🍎", "🍊", "🍎", "🍎", "🍊"]
+let appleShelf = document.getElementById("apple-shelf")
+let orangeShelf = document.getElementById("orange-shelf")
 
-let stageEl = document.getElementById("stage")
-let fightButton = document.getElementById("fightButton")
+// Create a function that puts the apples onto the appleShelf
+// and the oranges onto the orangeShelf. Use a for loop,
+// a conditional statement, and the textContent property.
 
-function fight() {
-
-    let random1 = Math.floor(Math.random() * fighters.length)
-    let random2 = Math.floor(Math.random() * fighters.length)
-    console.log(fighters[random1] + " vs " + fighters[random2])
-
-    stageEl.textContent = fighters[random1] + " vs " + fighters[random2]
+function order() {
+    for (i = 0; i < fruit.length; i++) {
+        if (fruit[i] === "🍎") {
+            appleShelf.textContent = "🍎"
+        }
+        if (fruit[i] === "🍊") {
+            orangeShelf.textContent = "🍊"
+        }
+    }
 }
+
+order()

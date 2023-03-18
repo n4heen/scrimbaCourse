@@ -5,10 +5,25 @@ let password1El = document.querySelector(".password__1")
 let password2El = document.querySelector(".password__2")
 let generateButton = document.querySelector(".generateButton")
 
+
 function generate() {
-    let randomIndexOne = Math.floor(Math.random() * characters.length)
-    let randomIndexTwo = Math.floor(Math.random() * characters.length)
-    password1El.textContent = characters[randomIndexOne]
-    password2El.textContent = characters[randomIndexTwo]
+    var randomIndexOne = Math.floor(Math.random() * characters.length)
+    return characters[randomIndexOne]
 }
 
+
+function generateRandomPassword() {
+    let randomPassword = ""
+    for (let i = 0; i < 12; i++) {
+        randomPassword += generate()
+    }
+    return randomPassword
+
+}
+
+
+function change() {
+    const generatedPasswordOne = generateRandomPassword()
+    password1El.textContent = generatedPasswordOne
+    password2El.textContent = generatedPasswordOne
+}

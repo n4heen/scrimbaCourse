@@ -6,13 +6,8 @@ let password2El = document.querySelector(".password__2")
 let generateButton = document.querySelector(".generateButton")
 
 function generate() {
-
-    for (var i = 0; i <= 13; i++) {
-        var randomIndexOne = Math.floor(Math.random() * characters.length)
-        var randomIndexTwo = Math.floor(Math.random() * characters.length)
-  
-    }
-
+    let randomIndexOne = Math.floor(Math.random() * characters.length)
+    let randomIndexTwo = Math.floor(Math.random() * characters.length)
     password1El.textContent = characters[randomIndexOne]
     password2El.textContent = characters[randomIndexTwo]
 }

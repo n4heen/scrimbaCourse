@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #5F9341;
+    margin-bottom: 8px;
+}
+
+button {
+    background-color: #5F9341;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+}

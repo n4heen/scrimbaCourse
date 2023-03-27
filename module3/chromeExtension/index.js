@@ -3,10 +3,15 @@ let inputEl = document.querySelector('#input-el')
 let saveEl = document.querySelector('#input-btn')
 let ulEl = document.querySelector('#ul-el')
 
+let leadsFromLocalStorage=localStorage.getItem('myLeads')
+
+
 saveEl.addEventListener("click", function () {
     myLeads.push(inputEl.value)
     inputEl.value = ''
+    localStorage.setItem('myLeads', JSON.stringify(myLeads))
     renderLeads()
+    console.log(leadsFromLocalStorage)
 })
 
 function renderLeads() {

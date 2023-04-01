@@ -1,20 +1,10 @@
-// SETTING THE STAGE
-const player = "Per"
-const opponent = "Nick"
-const game = "AmazingFighter"
-let points = 0
-let hasWon = false
+// Create a function that renders the three team images
+// Use a for loop, template strings (``), plus equals (+=)
+// .innerHTML to solve the challenge.
 
-// PLAYING THE GAME
-points += 100
-hasWon = false
+const imgs = [
+    "images/hip1.jpg",
+    "images/hip2.jpg",
+    "images/hip3.jpg"
+]
 
-// ANNOUNCING THE WINNER
-if (hasWon) {
-    console.log(`${player}  got  ${points}  points and won the  ${game}  game!`)
-} else {
-    console.log(`The winner is  ${opponent} ! ${player}  lost the game`)
-}
-
-// Go through all variables and decide if they should be let or const
-// Change the console logs to use template strings instead of double quotes

@@ -1,20 +1,20 @@
-let fruit = ["🍎", "🍊", "🍎", "🍎", "🍊"]
-let appleShelf = document.getElementById("apple-shelf")
-let orangeShelf = document.getElementById("orange-shelf")
+// SETTING THE STAGE
+const player = "Per"
+const opponent = "Nick"
+const game = "AmazingFighter"
+let points = 0
+let hasWon = false
 
-// Create a function that puts the apples onto the appleShelf
-// and the oranges onto the orangeShelf. Use a for loop,
-// a conditional statement, and the textContent property.
+// PLAYING THE GAME
+points += 100
+hasWon = false
 
-function order() {
-    for (i = 0; i < fruit.length; i++) {
-        if (fruit[i] === "🍎") {
-            appleShelf.textContent += "🍎"
-        }
-        if (fruit[i] === "🍊") {
-            orangeShelf.textContent += "🍊"
-        }
-    }
+// ANNOUNCING THE WINNER
+if (hasWon) {
+    console.log(`${player}  got  ${points}  points and won the  ${game}  game!`)
+} else {
+    console.log(`The winner is  ${opponent} ! ${player}  lost the game`)
 }
 
-order()
+// Go through all variables and decide if they should be let or const
+// Change the console logs to use template strings instead of double quotes

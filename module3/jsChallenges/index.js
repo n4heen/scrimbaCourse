@@ -3,7 +3,7 @@
 // Don't know which method to use? Google it!
 
 
-const totalPrice = 420.69235632455.toFixed(2)
+const totalPrice = '420.69235632455'
 
- console.log( `Buy €${ totalPrice }`)
+ console.log( `Buy €${Number(totalPrice).toFixed(2) }`)
 

@@ -1,20 +1,12 @@
-/*
-1 meter = 3.281 feet
-1 liter = 0.264 gallon
-1 kilogram = 2.204 pound
-*/
-const inputEl = document.querySelector('#input-el')
-const meterEl = document.querySelector('.meter')
-const literEl = document.querySelector('.liter')
-const kiloEl = document.querySelector('.kilo')
 
-console.log('egg')
+let inputEl = document.getElementById("input")
+let lengthEl = document.getElementById("length-el")
 
-function convert() {
-    const meterShow = meterEl.val
-}
+const meterToFeet =  3.281
+const literToGallon =  0.264
+const kiloToPound =  2.204
 
-function increment() {
-    count += 1
-    countEl.textContent = count
+function convert(){
+    let baseValue=inputEl.value
+ lengthEl.textContent=`${baseValue} meters | ${baseValue*meterToFeet} meters`
 }

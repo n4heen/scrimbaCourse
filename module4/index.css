@@ -19,7 +19,7 @@ h1 {
     margin: 0;
 }
 
-h2{
+h2 {
     margin-top: 0;
 }
 
@@ -29,10 +29,25 @@ h3 {
     margin: 0;
 }
 
+a {
+    color: #ef5939;
+    text-decoration:underline dotted;
+}
+
+a:hover,
+a:active {
+    color: #d4b44c;
+}
+
 section {
     padding: 45px 0px;
 }
 
 .main-img {
     width: 100%;
+}
+
+.container{
+    width: 620px;
+    margin: 0 auto;
 }

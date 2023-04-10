@@ -8,61 +8,45 @@ body {
     padding: 0;
 }
 
-/* 
-Challenge:
-1. Use comments to divide up the CSS
-   into segments.
-⚠️ Don't use too many comments!
-*/
-
-body {
-    font-size: 16px;
-    color: #2b283a;
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-}
-
 /* typography */
 
 h1 {
     color: whitesmoke;
     font-size: 36px;
-    margin: 0;
+
 }
 
-h2 {
-    margin: 0;
-}
 
 h3 {
     color: #d0aaff;
     font-size: 20px;
-    margin: 0;
+
 }
 
 /* links */
 
 a {
-    color: #ef5839;
     text-decoration: underline dotted;
 }
 
-a:hover {
-    color: #d4b44c;
-}
-
+a,
+a:hover,
 a:active {
     color: #d4b44c;
 }
 
 /* layout */
 
-header {
+header,
+.section2 {
     background-color: #5f29a3;
-    padding: 45px 0;
+
 }
 
-section {
+header,
+section,
+footer {
+
     padding: 45px 0;
 }
 
@@ -78,7 +62,7 @@ section {
 /* SECTION 2 */
 
 .section2 {
-    background-color: #5f29a3;
+
     color: whitesmoke;
 }
 
@@ -86,12 +70,17 @@ section {
 
 .imgs {
     display: flex;
-    justify-content: center;
-   
+    justify-content: space-between;
+
 }
 
 .imgsPic {
-    padding: 32px;
     width: 300px;
     border-radius: 4.6px;
+}
+
+footer {
+    color: #5f29a3;
+
+    text-align: center;
 }

@@ -16,9 +16,23 @@ header {
 h1 {
     font-size: 36px;
     color: whitesmoke;
+    margin: 0;
+}
+
+h2{
+    margin-top: 0;
 }
 
 h3 {
     font-size: 20px;
     color: #d0aaff;
+    margin: 0;
+}
+
+section {
+    padding: 45px 0px;
+}
+
+.main-img {
+    width: 100%;
 }

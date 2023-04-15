@@ -35,10 +35,12 @@ h2 {
 
 h1 {
     font-size: 60px;
+    margin-top: 0;
 }
 
 h2 {
     font-size: 42px;
+    margin-top: 0;
 }
 
 h3 {
@@ -64,6 +66,21 @@ a {
 
 a:hover {
     color: #131313;
+}
+
+.buttons{
+    background-color:#99D930 ;
+    color: #252525;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 16px;
+    display: inline-block;
+    margin-top: 16px;
+}
+
+.buttons:hover{
+    background-color: #252525;
+    color:#fff ;
 }
 
 /*MAIN*/

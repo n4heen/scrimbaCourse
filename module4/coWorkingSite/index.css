@@ -38,10 +38,10 @@ h1 {
     margin: 30px 25px;
 }
 
-.item{
-display: flex;
-align-items: center;
-flex-direction: column;
+.item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .item-img {
@@ -50,4 +50,8 @@ flex-direction: column;
 
 .caption {
     margin: 0 25px;
+}
+
+.align-right {
+    margin-left: auto;
 }
